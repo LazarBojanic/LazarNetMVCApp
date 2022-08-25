@@ -1,0 +1,13 @@
+﻿@model MovieViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>LazarMainHeading</h1>
+<p>LazarMainParagraph</p>
+<h2>Movie Title: @Model.movieTitle</h2>
+<h2>Movie Release Date @Model.movieReleaseDate.Value.ToString()</h2>
+<h2>Movie Overview: @Model.movieOverview</h2>
+<h2>Movie Rating: @Model.movieVoteAverage</h2>
