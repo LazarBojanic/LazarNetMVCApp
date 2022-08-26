@@ -1,6 +1,7 @@
 ﻿using LazarNetMVCApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using ModernHttpClient;
 
 namespace LazarNetMVCApp.Controllers {
     public class HomeController : Controller {

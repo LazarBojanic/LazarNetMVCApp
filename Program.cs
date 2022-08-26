@@ -22,5 +22,4 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=LazarMain}/{action=Index}/{id?}");
-
 app.Run();
